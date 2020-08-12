@@ -47,7 +47,7 @@ export default class ClassesController {
             bio,
             subject,
             cost,
-            schedule,
+            schedule
         } = request.body;
     
         const trx = await db.transaction();
@@ -57,15 +57,15 @@ export default class ClassesController {
                 name,
                 avatar,
                 whatsapp,
-                bio,
+                bio
             }).returning('id');
-        
+
             const user_id = insertedUsersIds[0];
         
             const insertedClassesIds = await trx('classes').insert({
                 subject,
                 cost,
-                user_id,
+                user_id
             }).returning('id');
         
             const class_id = insertedClassesIds[0];
