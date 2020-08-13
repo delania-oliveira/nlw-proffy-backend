@@ -6,9 +6,8 @@
  <a href="#info">Info</a> •
  <a href="#deploy">Deploy</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#funcionalidaes">Funcionalidades</a> • 
  <a href="#como-instalar">Como Instalar</a> •
- <a href="#licenc-a">Licença</a>
+ <a href="#licença">Licença</a>
 </p>
 
 <div align="center">
