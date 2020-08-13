@@ -2,14 +2,6 @@
 
 <h1 align="center"> Semana Next Level Week #2 - Proffy </h1>
 
-<p align="center">
- <a href="#info">Info</a> •
- <a href="#deploy">Deploy</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#como-instalar">Como Instalar</a> •
- <a href="#licença">Licença</a>
-</p>
-
 <div align="center">
  <img src="https://img.shields.io/github/repo-size/sihann/nlw-proffy-backend?color=774dd6&style=for-the-badge"> <img src="https://img.shields.io/github/languages/count/sihann/nlw-proffy-backend?color=774DD6&style=for-the-badge"> <img src="https://img.shields.io/github/last-commit/sihann/nlw-proffy-backend?color=774dd6&style=for-the-badge"> <img src="https://img.shields.io/github/license/sihann/nlw-proffy-backend?color=774DD6&style=for-the-badge"> 
  </div>
@@ -52,7 +44,7 @@ $ yarn
 #ou
 $ npm install
 ```
-4. Crie um arquivo .env com os parametros
+4. Crie um arquivo .env 
 ```bash
 $ echo "PG_HOST=localhost PG_USER=postgres PG_PASSWORD=docker PG_DATABASE=proffy" > .env
 ```
@@ -60,7 +52,7 @@ $ echo "PG_HOST=localhost PG_USER=postgres PG_PASSWORD=docker PG_DATABASE=proffy
 ```bash
 $ docker run --name nlw -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
-6. Com o cliente de bancos de dados compatível com PostgreSQL, acesse o banco de dados usando as informações a seguir
+6. Com o cliente de bancos de dados compatível com PostgreSQL, acesse o banco de dados usando as informações a seguir:
     - Endereço: localhost
     - Porta: 5432
     - Usuário: postgres
