@@ -3,7 +3,7 @@
 <h1 align="center"> Semana Next Level Week #2 - Proffy </h1>
 
 <div align="center">
- <img src="https://img.shields.io/github/repo-size/sihann/nlw-proffy-backend?color=774dd6&style=for-the-badge"> <img src="https://img.shields.io/github/languages/count/sihann/nlw-proffy-backend?color=774DD6&style=for-the-badge"> <img src="https://img.shields.io/github/last-commit/sihann/nlw-proffy-backend?color=774dd6&style=for-the-badge"> <img src="https://img.shields.io/github/license/sihann/nlw-proffy-backend?color=774DD6&style=for-the-badge"> 
+ <img src="https://img.shields.io/github/repo-size/delania-oliveira/nlw-proffy-backend?color=774dd6&style=for-the-badge"> <img src="https://img.shields.io/github/languages/count/delania-oliveira/nlw-proffy-backend?color=774DD6&style=for-the-badge"> <img src="https://img.shields.io/github/last-commit/delania-oliveira/nlw-proffy-backend?color=774dd6&style=for-the-badge"> <img src="https://img.shields.io/github/license/delania-oliveira/nlw-proffy-backend?color=774DD6&style=for-the-badge"> 
  </div>
 
 -----
@@ -32,7 +32,7 @@ Backend do projeto Proffy, uma plataforma de estudos online feito na semana Next
 
 1. clone o repositorio 
 ```bash
-$ git clone https://github.com/sihann/nlw-proffy-backend
+$ git clone https://github.com/delania-oliveira/nlw-proffy-backend
 ```
 2. Entre na pasta do projeto
 ```bash
@@ -79,7 +79,7 @@ $ npm dev
 
 <p align="center"><img src="./img/insomnia.png"></p>
 
-## Para testar junto ao [frontend](https://github.com/sihann/nlw-Proffy)
+## Para testar junto ao [frontend](https://github.com/delania-oliveira/nlw-Proffy)
 1. Abra o arquivo _src/sevices/api.ts_ e mude o endereço da _baseURL_ 
 ```typeScript
 baseURL: 'https://nlw-proffy-backend.herokuapp.com/'
@@ -94,7 +94,7 @@ $ npm start
 ```
 
 # :page_facing_up: Licença
-![GitHub](https://img.shields.io/github/license/sihann/nlw-proffy-backend?color=774DD6&style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/delania-oliveira/nlw-proffy-backend?color=774DD6&style=for-the-badge)
 
 -----
 <p align="center">Feito com  :purple_heart: por Delania Oliveira.  :wave:</p>
